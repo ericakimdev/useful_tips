@@ -5,3 +5,5 @@
 ```git commit -a```   &nbsp;&nbsp;&nbsp; This will commit your changes.<br /><br />
 ```git fetch origin remote_branch_name:local_branch_name```  &nbsp;&nbsp;&nbsp;Create a local branch which is a copy of a remote branch.<br /><br />
 ```git switch remote_branch_name```  &nbsp;&nbsp;&nbsp;Create a local branch with the same name as the specified remote branch.<br /><br />
+
+[Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
