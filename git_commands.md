@@ -8,9 +8,11 @@
 ```git fetch origin remote_branch_name:local_branch_name```  &nbsp;&nbsp;&nbsp;Create a local branch which is a copy of a remote branch.<br /><br />
 ```git switch remote_branch_name```  &nbsp;&nbsp;&nbsp;Create a local branch with the same name as the specified remote branch.<br /><br />
 
-[Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
-
 
 ### git is not case sensitive, so even to rename the folder I had to do:
-git mv sendEmail tmp
-git mv tmp SendEmail
+```git mv sendEmail tmp```
+```git mv tmp SendEmail```
+
+
+[Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+
