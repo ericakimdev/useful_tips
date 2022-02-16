@@ -10,8 +10,8 @@
 
 
 ### git is not case sensitive, so even to rename the folder I had to do:
-```git mv sendEmail tmp```
-```git mv tmp SendEmail```
+```git mv sendEmail tmp```<br /><br />
+```git mv tmp SendEmail```<br /><br />
 
 
 [Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
