@@ -13,6 +13,10 @@
 ```git mv sendEmail tmp```<br /><br />
 ```git mv tmp SendEmail```<br /><br />
 
+### How to delete multiple branches in Git
+```git branch | grep "<pattern>"
+```git branch | grep "<pattern>" | xargs git branch -D
 
-[Basic Git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
-
+e.g.
+```git branch | grep "feature-*"
+```git branch | grep "feature-*" | xargs git branch -D
