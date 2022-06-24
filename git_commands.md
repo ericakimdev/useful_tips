@@ -14,9 +14,8 @@
 ```git mv tmp SendEmail```<br /><br />
 
 ### How to delete multiple branches in Git
-```git branch | grep "<pattern>"
-```git branch | grep "<pattern>" | xargs git branch -D
+```git branch | grep "<pattern>"```
+```git branch | grep "<pattern>" | xargs git branch -D```<br />
 
-e.g.
-```git branch | grep "feature-*"
-```git branch | grep "feature-*" | xargs git branch -D
+e.g.<br />
+```git branch | grep "feature-*" | xargs git branch -D```<br /><br />
